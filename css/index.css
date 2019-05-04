@@ -191,13 +191,13 @@ header nav a{
     padding-right: 0;
 }
 
+.about, .strategy p, .how-we-work p, .places-we-work p, .collaboration p{
+    border-bottom: 1px dashed black;
+}
+
 .about{
     padding: 20px;
     margin-bottom: 15px;
-}
-
-.about, .strategy p, .how-we-work p, .places-we-work p, .collaboration p{
-    border-bottom: 1px dashed black;
 }
 
 .about-main{
