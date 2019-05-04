@@ -210,7 +210,7 @@ header nav a{
     margin-bottom: 10px;
 }
 
-button{
+.button{
     margin: 20px 0;
     background: white;
     color: black;
@@ -230,13 +230,39 @@ button{
     padding: 5px 20px 40px 20px;
 }
 
-footer {
+h1{
+    font-size: 24px;
+}
+
+em{
+    font-style: italic;
+}
+
+.post{
+    padding: 30px;
+    margin: 20px;
+    background: lightgray;
+}
+
+.blog-footer{
+    margin: 20px 0;
+}
+
+input[type=text],input[type=email], textarea{
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+textarea{
+    height: 150px;
+}
+.footer {
     width: 100%;
     background: black;
     bottom: 0;
 }
 
-footer nav {
+.footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -245,7 +271,7 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+.footer nav a {
     color: white;
     text-decoration: none;
 }
