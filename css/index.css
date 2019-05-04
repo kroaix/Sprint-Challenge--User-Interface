@@ -208,6 +208,16 @@ header nav a{
 
 .about-main div img{
     margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+.about-main div img:hover{
+    animation: hoverOpacity 2s;
+}
+
+@keyframes hoverOpacity{
+    0% {opacity: 0.5;}
+    100% {opacity: 1.0;}
 }
 
 .button{
@@ -248,14 +258,21 @@ em{
     margin: 20px 0;
 }
 
+form{
+    margin: 15px 0;
+}
+
 input[type=text],input[type=email], textarea{
     padding: 10px;
     width: 100%;
     margin: 10px 0;
+    font-size: 15.5px;
 }
+
 textarea{
     height: 150px;
 }
+
 .footer {
     width: 100%;
     background: black;
