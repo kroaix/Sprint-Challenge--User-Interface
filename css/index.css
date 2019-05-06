@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav{
+    margin: 45px 0 38px 0;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 41px;
+}
+
+.logo{
+    width: 157px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.jumbo{
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +130,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background: teal;
+}
+
+.box2{
+    background: gold;
+}
+
+.box3{
+    background: cadetblue;
+}
+
+.box4{
+    background: coral;
+}
+
+.box5{
+    background: crimson;
+}
+
+.box6{
+    background: forestgreen;
+}
+
+.box7{
+    background: darkorchid;
+}
+
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background: indigo;
+}
+
+.box10{
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -126,9 +191,49 @@ p {
     padding-right: 0;
 }
 
+.about, .strategy p, .how-we-work p, .places-we-work p, .collaboration p{
+    border-bottom: 1px dashed black;
+}
+
+.about{
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.about-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-main div img{
+    margin-bottom: 10px;
+}
+
+button{
+    margin: 20px 0;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 9px 23px;
+    font-size: 15.5px;
+}
+
+.strategy, .how-we-work, .places-we-work, .collaboration{
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.lets-work-together{
+    padding: 5px 20px 40px 20px;
+}
+
 footer {
     width: 100%;
     background: black;
+    bottom: 0;
 }
 
 footer nav {
